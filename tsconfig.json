@@ -1,0 +1,9 @@
+{
+    "extends": "@taiga-ui/tsconfig",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "es2022",
+        "useDefineForClassFields": false,
+        "typeRoots": ["node_modules/@types"]
+    }
+}

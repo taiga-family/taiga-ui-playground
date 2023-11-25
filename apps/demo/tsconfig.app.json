@@ -1,0 +1,12 @@
+{
+    "extends": "../../tsconfig.json",
+    "angularCompilerOptions": {
+        "compilationMode": "full"
+    },
+    "compilerOptions": {
+        "outDir": "./out-tsc/app",
+        "types": ["node"]
+    },
+    "files": ["src/main.ts"],
+    "include": ["src/**/*.d.ts"]
+}
