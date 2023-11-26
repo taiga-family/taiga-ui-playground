@@ -1,0 +1,19 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+  - main
+
+pool:
+  vmImage: windows-latest
+
+steps:
+  - script: reg query "HKLM\SOFTWARE\Wow6432Node\Microsoft\VisualStudio\14.0\VC\Runtimes\x86"
+  - script: yarn install --force --pure-lockfile
+    displayName: install
+  - script: yarn nx show projects
+    displayName: show projects
+  - script: yarn nx run-many -t build --parallel 3
+    displayName: build
