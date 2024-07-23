@@ -2442,6 +2442,13 @@
   dependencies:
     tslib "^2.2.0"
 
+"@tinkoff/ng-event-plugins@3.2.0":
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/@tinkoff/ng-event-plugins/-/ng-event-plugins-3.2.0.tgz"
+  integrity sha512-n56R5xNfiytabh2WmWdQXfNU6m7dfOo3LLxlARE+DX7f5yciW2xBdDkuEHX74q8dlCuAVlW9aslSfz8c//ymwA==
+  dependencies:
+    tslib "^2.2.0"
+
 "@tinkoff/ng-polymorpheus@4.2.0":
   version "4.2.0"
   resolved "https://registry.npmjs.org/@tinkoff/ng-polymorpheus/-/ng-polymorpheus-4.2.0.tgz"

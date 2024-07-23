@@ -35,7 +35,7 @@
         "@taiga-ui/prettier-config": "0.6.0",
         "@taiga-ui/styles": "3.55.0",
         "@tinkoff/ng-dompurify": "4.0.0",
-        "@tinkoff/ng-event-plugins": "3.1.0",
+        "@tinkoff/ng-event-plugins": "3.2.0",
         "@types/node": "20.9.2",
         "dompurify": "3.0.6",
         "rxjs": "7.8.1",
